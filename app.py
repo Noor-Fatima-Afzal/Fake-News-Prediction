@@ -60,7 +60,7 @@ def build_model():
 # ──────────────────────────────────────────────────────────────────────────────
 st.title("📰 Fake vs Real News Classifier")
 
-DATA_PATH = r"C:\Users\InfoBay\Desktop\Fake-News-Prediction\train.csv"
+DATA_PATH = r"train.csv"
 X, y, vectorizer = load_and_vectorize(DATA_PATH)
 model = build_model()
 
